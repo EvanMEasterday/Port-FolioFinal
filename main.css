@@ -64,12 +64,6 @@ header {
   clear: both;
 }
 
-.card {
-  border: 1px solid black;
-  margin: 10px;
-  padding: 10px;
-}
-
 @media (max-width: 768px) {
   .content, .sidebar {
     float: none;
@@ -135,46 +129,38 @@ footer {
   width: 30%;
 }
 
-.shanghaiessay  {
-  font-family: 'Roboto', sans-serif;
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-
 .famousPortsTitle {
   text-align: center;
   padding: 15px;
   margin: 0;
 
 }
-.card {
+.famousports {
   text-align: center;
-  
+  max-width: 40%;
+  margin: 0 auto; 
+  margin-bottom: 20px;
+}
+.famousports img {
+  max-width: 100%;
+  height: auto;
 }
 
-.ancientPorts {
+.attribution {
+  font-size: 0.7rem;
+  color:gray
+}
+
+.historyPorts {
   text-align: center;
   padding: 15px;
   margin: 0;
 }
-
-.medievalPorts {
-  text-align: center;
-  padding: 15px;
-  margin: 0;
-}
-
-.modernPorts {
-  text-align: center;
-  padding: 15px;
-  margin: 0;
-}
-
-.tradeTitle {
-  text-align: center;
-  padding: 15px;
-  margin: 0;
+.historyPorts img {
+  display: block;
+  margin: 0 auto; 
+  max-width: 100%;
+  height: auto;
 }
 
 .typesPorts {
@@ -191,17 +177,26 @@ footer {
 
 .gif-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 0 auto;
   max-width: 50%;
   height: auto;
 }
-.fun-factgif {
+.extra-factgif {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   max-width: 50%;
   height: auto;
   margin: 0 auto;
+}
+
+.extrainfo {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
 }
 
 .sidebar ul {
@@ -228,8 +223,8 @@ footer {
 .typesPorts li img {
   display: block;
   margin: 0 auto; 
-  max-width: 80%;
-  max-height: 60%;
+  max-width: 100%;
+  height: auto;
 }
 .tradeTitle {
   font-family: 'Bungee', sans-serif;
@@ -256,31 +251,25 @@ footer {
   padding: 15px;
   margin: 0;
 }
-.galleryimagetype1 {
-  float: left;
-  margin-left: 40px;
-  margin-bottom: 20px;
-  max-width: 50%;
-  height: auto;
-}
-.galleryimagetype2 {
-  float: right;
-  margin-right: 40px;
-  margin-bottom: 20px;
-  max-width: 50%;
-  height: auto;
-}
+
 .gallerytext {
   font-family: 'Bungee', sans-serif;
   text-align: center;
   padding: 15px;
   margin: 0;
 }
-.galleryimagetype2adj {
-  float: right; 
-  margin-right: 40px;
-  margin-bottom: 20px;
-  display: block;
-  max-width: 50%;
-  height: 500px;
+.gallerycontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px;
+}
+.gallerycontainer a {
+  width: 45%;
+}
+.gallerycontainer img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
