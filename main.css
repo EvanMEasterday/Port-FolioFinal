@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: 'Bungee', sans-serif;
+}
+
+main {
+  flex: 1;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 10px;
+  text-align:center;
+}
+
+.nav {
+  font-family: 'Bungee', sans-serif;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  
+}
+
+.nav li {
+  margin:0 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: yellow;
+}
+
+.content {
+  float: left;
+  
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+}
+
+.sidebar {
+  text-align: center;
+  float: right;
+  width: 40%;
+  
+  padding: 10px;
+  min-height: 200px
+}
+
+.clear {
+  clear: both;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .content, .sidebar {
+    float: none;
+    width: 100%;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+}
+
+.main-title { 
+  text-align: center;
+  background-color:aquamarine;
+   padding: 15px;
+margin: 0;
+}
+
+.hero {
+margin: 10px;
+text-align: center;
+font-family: 'Bungee', sans-serif;
+font-weight: 500;
+font-size: 1.5rem;
+}
+
+footer {
+  margin-top: 20px;   
+  padding: 15px;      
+  text-align: center;
+  background: #003366;
+  color:aliceblue;
+}
+.historyTitle {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+
+.contactTitle {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 40%;
+  width: 30%;
+}
+
+.shanghaiessay  {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.famousPortsTitle {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+
+}
+.card {
+  text-align: center;
+  
+}
+
+.ancientPorts {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+
+.medievalPorts {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+
+.modernPorts {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+
+.tradeTitle {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+
+.typesPorts {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+
+.typesPorts ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
+}
+.fun-factgif {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.sidebar ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+.sidebar h3 {
+  text-align: center;
+  padding: 15px;
+  margin: 0;  
+}
+.PortTypes {
+  font-family: 'Bungee', sans-serif;
+  padding: 15px;
+  margin: 0;
+}
+.Typestext {
+  font-family: 'Roboto', sans-serif;
+  padding: 15px;
+  margin: 0;
+}
+.typesPorts li img {
+  display: block;
+  margin: 0 auto; 
+  max-width: 80%;
+  max-height: 60%;
+}
+.tradeTitle {
+  font-family: 'Bungee', sans-serif;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+.tradetext {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+.routesImage {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  height: auto;
+  text-align: center;
+}
+.gallerytitle {
+  font-family: 'Bungee', sans-serif;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+.galleryimagetype1 {
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  max-width: 50%;
+  height: auto;
+}
+.galleryimagetype2 {
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  max-width: 50%;
+  height: auto;
+}
+.gallerytext {
+  font-family: 'Bungee', sans-serif;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+.galleryimagetype2adj {
+  float: right; 
+  margin-right: 40px;
+  margin-bottom: 20px;
+  display: block;
+  max-width: 50%;
+  height: 500px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<link rel="stylesheet" href="main.css">
+<script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+<header><nav>
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="PortHistory.html">History</a></li>
+      <li><a href="famousPorts.html">Famous Ports</a></li>
+      <li><a href="PortTypes.html">Types</a></li>
+      <li><a href="PortTrade.html">Trade</a></li>
+      <li><a href="Images.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav></header>
+
+<main>
+  <div class="flex" > 
+    <h2 class="contactTitle">Contact Us</h2>
+
+  <form id="contactForm"class="form">
+    <label>Name:</label>
+    <input type="text" name="name" id="name" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" id="email" required>
+
+    <label>Subject:</label>
+    <input type="text" name="subject" id="subject" required>
+
+    <label>Reason:</label>
+    <select name="reason" id="reason" required>
+      <option value="">Select</option>
+      <option>General</option>
+      <option>Feedback</option>
+    </select>
+
+    <label>Message:</label>
+    <textarea name="message" id="message" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+ </div>
+  
+
+</main>
+
+<footer>© 2026 Port-folio</footer>
+
+</body>
+</html>
